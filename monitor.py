@@ -17,7 +17,7 @@ url = "https://www.sochisi.cl"
 # Encabezado de la página
 st.markdown("<h1 style='text-align: center;'>Monitor Web</h1>", unsafe_allow_html=True)
 st.write(" ")
-st.write(f"Monitoreando el sitio web {url} cada 5 segundos...")
+st.write(f"Monitoreando el sitio web {url} cada 60 segundos...")
 
 # Configuración de tabla
 col1, col2 = st.columns(2)
