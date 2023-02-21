@@ -20,7 +20,7 @@ st.write(" ")
 st.write(f"Monitoreando el sitio web {url} cada 5 segundos...")
 
 # Configuración de tabla
-col1, col2 = st.beta_columns(2)
+col1, col2 = st.columns(2)
 with col1:
     st.write("Hora")
 with col2:
