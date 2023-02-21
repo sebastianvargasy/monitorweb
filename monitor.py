@@ -11,7 +11,7 @@ st.markdown("<h1 style='text-align: center;'>Monitor de sitios web</h1>", unsafe
 st.write(" ")
 
 # URL a monitorear
-url = st.text_input("Ingresa la URL del sitio web que deseas monitorear:")
+url = "https://www.sochisi.cl"
 
 # Verificar que la URL ingresada es válida
 if not url.startswith("http"):
