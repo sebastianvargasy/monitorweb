@@ -55,6 +55,6 @@ while True:
         with col2:
             st.write("🔴 Fuera de línea")
 
-    # Esperamos 5 segundos antes de realizar la siguiente petición
-    time.sleep(5)
+    # Esperamos 60 segundos antes de realizar la siguiente petición
+    time.sleep(60)
 
